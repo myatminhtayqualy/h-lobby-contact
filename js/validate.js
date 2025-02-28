@@ -614,6 +614,35 @@ document.addEventListener("DOMContentLoaded", () => {
           $("#name03-2").val("");
           $("#name04-1").val("");
           $("#name04-2").val("");
+        } else if (event.target.value == "一般の方") {
+          $("#fieldset-resident").addClass("hidden");
+          $("#fieldset-owner").addClass("hidden");
+          $("#fieldset-search").addClass("hidden");
+          $("#address").addClass("hidden");
+
+          $("#input-resident").val("価値");
+          $("#input-owner").val("価値");
+          $("#input-search").val("価値");
+
+          $("#address01").val("1");
+          $("#address02").val("2");
+          $("#address03").val("価値");
+
+          localStorage.setItem("rdo4", "rdo4");
+          localStorage.removeItem("rdo1");
+          localStorage.removeItem("rdo2");
+          localStorage.removeItem("rdo3");
+          $("input[name='resident[]']").prop("checked", false);
+          $("input[name='owner[]']").prop("checked", false);
+          $("input[name='search[]']").prop("checked", false);
+
+          $("#lessor-text").addClass("hidden");
+          $("#lessor-name").addClass("hidden");
+
+          $("#name03-1").val("");
+          $("#name03-2").val("");
+          $("#name04-1").val("");
+          $("#name04-2").val("");
         } else {
           $("#fieldset-resident").removeClass("hidden");
           $("#fieldset-owner").removeClass("hidden");

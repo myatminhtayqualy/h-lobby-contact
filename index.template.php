@@ -153,7 +153,7 @@ if (basename($_SERVER['PHP_SELF']) === basename(__FILE__)) {
                   '物件オーナー様・賃貸経営に関するお問い合わせ',
                   '賃貸のお部屋探しの方',
                   '弊社への各種お問い合わせ及び、ご相談',
-                  'hehe'
+                  '一般の方'
                 ); ?>
                 <input type="hidden" id="input-<?php echo h($name); ?>" value="">
                 <?php foreach ($values as $value) : ?>
