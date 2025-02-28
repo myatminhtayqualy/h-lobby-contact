@@ -585,7 +585,7 @@ document.addEventListener("DOMContentLoaded", () => {
           $("#name03-2").val("");
           $("#name04-1").val("");
           $("#name04-2").val("");
-        } else if (event.target.value == "弊社への各種お問い合わせ及び、ご相談") {
+        } else if (event.target.value == "一般の方") {
           $("#fieldset-resident").addClass("hidden");
           $("#fieldset-owner").addClass("hidden");
           $("#fieldset-search").addClass("hidden");
@@ -614,7 +614,7 @@ document.addEventListener("DOMContentLoaded", () => {
           $("#name03-2").val("");
           $("#name04-1").val("");
           $("#name04-2").val("");
-        } else if (event.target.value == "一般の方") {
+        } else if (event.target.value == "営業の方はこちら") {
           $("#fieldset-resident").addClass("hidden");
           $("#fieldset-owner").addClass("hidden");
           $("#fieldset-search").addClass("hidden");

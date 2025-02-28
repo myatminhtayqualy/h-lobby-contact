@@ -186,7 +186,7 @@ class SimpleFormController
 		//new field (updated 28.2.2025)
 		$input = $this->input;
 
-		if ($input['choice']['value'] === '一般の方') {
+		if ($input['choice']['value'] === '営業の方はこちら') {
 
 			if ($is_return) {
 				$this->sendTo($this->input[$this->config->get_email_return()]['value'], $this->email_for_user);
