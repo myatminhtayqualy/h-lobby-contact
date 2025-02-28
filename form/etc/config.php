@@ -223,7 +223,7 @@ class MailConfig
 		* カンマで区切って複数のメールアドレスを書くと複数の管理者に同時送信されます。
 		*/
 		return array(
-			'support@h-lobby.jp',
+			'myatminhtay.qualymm@gmail.com',
 		);
 	}
 }

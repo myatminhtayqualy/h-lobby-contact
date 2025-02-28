@@ -181,6 +181,23 @@ class SimpleFormController
 		$is_return = $this->config->get_email_return() && $this->input[$this->config->get_email_return()]['type'] === 'email' && strlen($this->input[$this->config->get_email_return()]['value']);
 
 		$send_to = $this->config->get_send_to();
+
+
+		//new field (updated 28.2.2025)
+		$input = $this->input;
+
+		if ($input['choice']['value'] === '一般の方') {
+
+			if ($is_return) {
+				$this->sendTo($this->input[$this->config->get_email_return()]['value'], $this->email_for_user);
+			}
+
+			$this->redirect($this->thanks_url);
+			return;
+		}
+
+		//end new field (updated 28.2.2025)
+
 		foreach ($send_to as $value) {
 			$this->sendTo($value, $this->email_for_admin, $is_return ? $this->input[$this->config->get_email_return()]['value'] : NULL);
 		}
