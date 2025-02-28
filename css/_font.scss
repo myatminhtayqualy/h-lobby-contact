@@ -1,0 +1,105 @@
+//GoogleFonts
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+//variable font
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&family=Jost:wght@100..900&family=Lato:wght@400;700;900&family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@mixin awesome{font-family: 'FontAwesome';}
+
+// @mixin notosans100{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:100;}
+// @mixin notosans300{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:300;}
+// @mixin notosans400{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:400;}
+// @mixin notosans500{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:500;}
+// @mixin notosans700{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:700;}
+// @mixin notosans900{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:900;}
+@mixin notosans($weight:300){font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:$weight;}
+
+@mixin oswald-r{font-family: 'Oswald', sans-serif; font-weight:400;}
+
+@mixin roboto100{font-family: 'Roboto', sans-serif; font-weight:100;}
+@mixin roboto300{font-family: 'Roboto', sans-serif; font-weight:300;}
+@mixin roboto400{font-family: 'Roboto', sans-serif; font-weight:400;}
+@mixin roboto500{font-family: 'Roboto', sans-serif; font-weight:500;}
+@mixin roboto700{font-family: 'Roboto', sans-serif; font-weight:700;}
+@mixin roboto900{font-family: 'Roboto', sans-serif; font-weight:900;}
+
+// @mixin intertight500{font-family: 'Inter Tight', sans-serif; font-weight:500;}
+@mixin intertight($weight:300){font-family: "Inter Tight", sans-serif; font-optical-sizing: auto; font-style: normal; font-weight: $weight;}
+
+@mixin lato400{font-family: "Lato", sans-serif; font-weight: 400;}
+@mixin lato700{font-family: "Lato", sans-serif; font-weight: 700;}
+@mixin lato900{font-family: "Lato", sans-serif; font-weight: 900;}
+
+// @mixin jost300{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 300;}
+// @mixin jost400{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 400;}
+// @mixin jost500{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 500;}
+// @mixin jost700{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 700;}
+@mixin jost($weight:300){font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: $weight;}
+
+
+//font family
+.font-notosans100{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:100;}
+.font-notosans700{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:300;}
+.font-notosans400{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:400;}
+.font-notosans500{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:500;}
+.font-notosans700{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:700;}
+.font-notosans900{font-family: 'Noto Sans JP', sans-serif; font-optical-sizing: auto; font-weight:900;}
+
+.font-roboto400{font-family: 'Roboto', sans-serif; font-weight:400;}
+.font-roboto500{font-family: 'Roboto', sans-serif; font-weight:500;}
+.font-roboto700{font-family: 'Roboto', sans-serif; font-weight:700;}
+.font-roboto900{font-family: 'Roboto', sans-serif; font-weight:900;}
+
+.font-lato400{font-family: "Lato", sans-serif; font-weight: 400;}
+.font-lato700{font-family: "Lato", sans-serif; font-weight: 700;}
+.font-lato900{font-family: "Lato", sans-serif; font-weight: 900;}
+
+.font-jost300{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 300; font-style: normal;}
+.font-jost500{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 500; font-style: normal;}
+.font-jost700{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal;}
+.font-jost900{font-family: "Jost", sans-serif; font-optical-sizing: auto; font-weight: 900; font-style: normal;}
+
+
+
+//font size
+.font10{font-size:10px;}
+.font11{font-size:11px;}
+.font12{font-size:12px;}
+.font17{font-size:13px;}
+.font14{font-size:14px;}
+.font15{font-size:15px;}
+.font16{font-size:16px;}
+.font18{font-size:18px;}
+.font1618{font-size:16px; @media (min-width: 768px){font-size:18px;}}
+.font20{font-size:20px;}
+.font22{font-size:22px;}
+.font24{font-size:24px;}
+.font26{font-size:26px;}
+.font28{font-size:28px;}
+.font30{font-size:30px;}
+.font32{font-size:32px;}
+.font34{font-size:34px;}
+.font36{font-size:36px;}
+.font40{font-size:40px;}
+.font48{font-size:48px;}
+.font54{font-size:54px;}
+.font60{font-size:60px;}
+.font72{font-size:72px;}
+.font80{font-size:80px;}
+
+
+
+//line-height
+.lh-s{line-height: 1.0;}
+.lh-m{line-height: 1.35;}
+.lh-l{line-height: 1.7;}
+.lh20{height:20px; line-height:20px;}
+.lh24{height:24px; line-height:24px;}
+.lh30{height:30px; line-height:30px;}
+.lh40{height:40px; line-height:40px;}
+.lh50{height:50px; line-height:50px;}
+
+.center{text-align: center !important;}
+.right{text-align: right !important;}
+

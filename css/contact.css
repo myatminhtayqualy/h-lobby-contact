@@ -1,0 +1,23 @@
+.hidden {
+  display: none;
+}
+.word-break {
+  word-break: break-all;
+}
+.contact-wrap .optional::before {
+  content: "任意";
+  color: white;
+  font-size: 11px;
+  display: inline-block;
+  white-space: nowrap;
+  height: 16px;
+  line-height: 16px;
+  padding-inline: 0.3rem;
+  background-color: #646060;
+  -webkit-margin-end: 0.3rem;
+  margin-inline-end: 0.3rem;
+}
+
+/* #lessor-name {
+    background-color: #dedede;
+} */

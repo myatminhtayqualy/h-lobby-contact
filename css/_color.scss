@@ -1,0 +1,41 @@
+// $yellow: #efc818;
+$yellow: #FDCE00;
+$yellow-mid: #dfb705;
+// $yellow-mid: #dfae05;
+// $yellow-deep: #c1a421;
+$yellow-deep: #c69f16;
+$yellow-pale: #bdb287;
+$navy: #104B84;
+$navy-light: #2b70b0;
+$black: #2B2610;
+$purple: #8C36C0;
+$green: #299403;
+$beige: #EFEEE3;
+$beige-light: #f6f4ea;
+$navy-deep: #142147;
+$blue: #3d91d0;
+// $blue:#104B84;
+$blue-light:#eaf6ff;
+
+.bg-navy{ background-color: $navy; }
+.bg-yellow{ background-color: $yellow; }
+.bg-purple{ background-color: $purple; }
+.bg-green{ background-color: $green; }
+.bg-black{ background-color: $black; }
+.bg-gray{ background-color: #f3f3f3; }
+.bg-gray-deep{ background-color: #999999;}
+.bg-beige{ background-color: $beige; }
+.bg-beige-light{ background-color: $beige-light; }
+.bg-white{ background-color: white; }
+.bg-blue{background-color: $blue;}
+.bg-blue-light{background-color:$blue-light;}
+
+.text-navy{ color:$navy; }
+.text-navy-deep{ color:$navy-deep; }
+.text-white{ color:white; }
+.text-black{ color:$black; }
+.text-yellow{ color:$yellow; }
+.text-yellow-deep{ color:$yellow-deep; }
+.text-purple{ color:$purple; }
+.text-blue{color:$blue;}
+.text-green{color:$green;}
